@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>form</title>
+        <link rel="stylesheet" href="form 1.css">
+    </head>
+    <body>
+        <form action="" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        Full Name:<input id="name" type="text" name="First_name" size="22" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Email:<input id="mail" type="text" name="Email" size="22" >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        password:<input id="pass" type="password" value="" maxlength="10" size="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Message:<br><textarea cols="70" rows="10"  value="message"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        select a choice:<br><input type="radio" name="First choice" value="on" checked="checked"> First Choice<br>
+                        <input type="radio" name="Second choice" value="on" > Second Choice<br>
+                        <input type="radio" name="Third choice" value="on" > Third Choice <br>
+
+                </td> 
+                </tr> 
+                <tr>
+                    <td>
+                        check all that <br> Apply :<br><input type="checkbox" name="First choice" value="on"> First choice <br>
+                        <input type="checkbox" name="Second choice" value="on"> Second choice<br>
+                        <input type="checkbox" name="Third choice" value="on"> Third choice
+                    </td>
+                </tr>
+                
+                
+
+                
+
+                
+            </table>
+            <select name="dropdown" >
+                <option value="first choice" selected>first choice</option>
+                <option value="Second choice" >second choice</option>
+                <option value="Third choice" >third choice</option>
+            </select> <br>
+            <br>
+        
+            <input id="button" type="submit" value="submit">
+        </form>
+    </body>
+</html>
